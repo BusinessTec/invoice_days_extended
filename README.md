@@ -1,4 +1,4 @@
-Sales Type
-===================
+Additional field in account.invoice
+=====================================
 
-Defines different types of sales orders for use in reports and further modules
+To make life easier for display of unpaid invoices
