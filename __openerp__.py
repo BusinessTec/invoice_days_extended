@@ -20,21 +20,21 @@
 ##############################################################################
 
 {
-    'name': 'Sales Type',
+    'name': 'Invoice Extended Days Overdue',
     'version': '1.0',
     'author': 'Business Tec Systems',
-    'summary': 'Define type of sales for reports and further processing',
+    'summary': 'Adding field to account.invoice model with calculation of days overdue to display nicely in UI',
     'description': """
-Sales Type
-=======================
-Creates a fields margin% and (read only) price for calculating product price to be used in pricelist
+Invoice Extended Days Overduue
+==============================
+Adding field to account.invoice model with calculation of days overdue to display nicely in UI
     """,
     'website': 'https://businesstec.net',
     'images': [],
-    'depends': ['product', 'sale'],
+    'depends': ['account', 'sale'],
     'sequence': 18,
     'data': [
-        'sales_type.xml',
+        'invoice_days_extended.xml',
     ],
     'installable': True,
     'auto_install': False,
